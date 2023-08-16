@@ -91,7 +91,7 @@ export default function Page({
       ) : (
         <BuilderComponent model="page" content={page} data={{myCars: cars}} />
       )}
-      <div>{dataModel[0].name}</div> 
+      <div data-vercel-edit-info>{dataModel[0].name}</div> 
     </>
   )
 }
